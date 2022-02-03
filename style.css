@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@font-face {font-family: "Ogg"; src: url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.eot"); src: url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.woff") format("woff"), url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.svg#Ogg") format("svg"); }
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ogg";
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+li {
+  position: relative;
+  font-size: 80px;
+  text-align: center;
+  /* -webkit-text-stroke: 1px white; */
+  /* color: transparent; */
+  color: #333;
+  z-index: 1;
+}
+
+img.image-reveal {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  object-fit: contain;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+}
